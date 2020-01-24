@@ -4,7 +4,7 @@ public class MyCar extends Car {
 
     @Override
     void description() {
-        System.out.println(model + color + speed);
+        System.out.println(model + " "  + color + " " + speed);
     }
 
     public static void main(String[] args) {
